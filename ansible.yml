@@ -2,5 +2,5 @@
    - hosts: all
      become: true
      tasks:
-        - command: docker run -d -P yogita90/docker-image:sample-java-app
+        - command: docker run -d -P https://hub.docker.com/repository/docker/yogita90/docker-image:sample-java-app
 
