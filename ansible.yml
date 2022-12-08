@@ -3,5 +3,4 @@
      become: true
      tasks:
         - command: docker run -d -P yogita90/docker-image:sample-java-app
-        - register: out
-        - debug: var=out
+
