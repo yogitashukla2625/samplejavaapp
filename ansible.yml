@@ -2,5 +2,5 @@
    - hosts: all
      become: true
      tasks:
-        - command: docker run -d -i -p 80:80 yogita90/docker-image:sample-java-app
+        - command: docker run -d -i -p 8080:8080 yogita90/docker-image:sample-java-app
 
